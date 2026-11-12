@@ -6,8 +6,10 @@ Backend engineer from Moscow, 4.5 years in commercial development. I write Pytho
 
 - OpenStack Cinder volume driver for AERODISK storage (iSCSI / FC). Volume preparation went from about 30 minutes to a few seconds.
 - A Go service that handles storage failures over gRPC. Master switchover takes 2–3 seconds.
-- Replication on Python + DRBD.
-- At Parallels: ETL pipelines that became more than twice as fast, a PostgreSQL data lake built from scratch (30% less storage), a corporate portal on Django/DRF with Celery and RabbitMQ.
+- Replication groups for the remote replication service between storage systems (Python, DRBD).
+- At Parallels: two years of ETL pipelines with Celery and RabbitMQ. Migrating them to new pipelines made them more than 2x faster and freed 2+ TB of RAM and disk on hypervisors.
+- Built a PostgreSQL data warehouse from scratch: conversion dashboards got at least 60% faster, storage shrank by 30%.
+- Built the admin portal for corporate customers on Django/DRF.
 
 **Right now**
 
